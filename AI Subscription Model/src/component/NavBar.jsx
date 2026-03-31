@@ -8,7 +8,7 @@ const NavBar = () => {
           </div>
         </div>
         <div className="navbar-center hidden md:flex">
-          <ul className="menu menu-horizontal gap-10 px-1 text-lg">
+          <ul className="menu menu-horizontal gap-5 px-1 text-lg">
           <li>
             <a>Products</a>
           </li>

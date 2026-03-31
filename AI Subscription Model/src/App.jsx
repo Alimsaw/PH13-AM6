@@ -1,7 +1,10 @@
 import './App.css'
 import Banner from "./component/Banner";
-import Footer from "./component/Footer";
 import NavBar from "./component/NavBar";
+import User from "./component/User";
+import GetStarted from "./component/GetStarted";
+import Package from "./component/Package";
+import Footer from "./component/Footer";
 
 function App() {
 
@@ -9,8 +12,11 @@ function App() {
     <>
       <NavBar/>
       <Banner/>
+      <User/>
 
 
+      <GetStarted/>
+      <Package/>
       <Footer/>
     </>
   );

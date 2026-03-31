@@ -4,9 +4,9 @@ const Banner = () => {
   return (
     <div className="relative min-h-162.5 flex items-center overflow-hidden w-full">
       <div className=" mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center relative z-10 w-full max-w-[1400px] mx-auto">
-        {/* Left Content */}
-        <div className="space-y-4">
-          <div className="inline-flex items-center gap-2 bg-[#e1e7ff] border border-[#e1e7ff] text-[#662df7] text-sm font-medium px-5 py-2 rounded-full">
+
+        <div className="space-y-4 flex flex-col items-center sm:p-6 lg:items-start">
+          <div className="inline-flex items-center gap-2 bg-[#e1e7ff] border border-[#e1e7ff] text-[#662df7] text-sm font-medium px-5 py-2 rounded-full max-w-fit">
           <img src="/src/assets/Group 5.svg" alt="" />
             New: AI-Powered Tools Available
           </div>
@@ -33,7 +33,6 @@ const Banner = () => {
           </div>
         </div>
 
-        {/* Right Image */}
         <div className="relative flex justify-center lg:justify-end">
           <div className="relative">
             <img
