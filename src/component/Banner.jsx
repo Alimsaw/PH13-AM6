@@ -7,7 +7,7 @@ const Banner = () => {
 
         <div className="space-y-4 flex flex-col items-center sm:p-6 lg:items-start">
           <div className="inline-flex items-center gap-2 bg-[#e1e7ff] border border-[#e1e7ff] text-[#662df7] text-sm font-medium px-5 py-2 rounded-full max-w-fit">
-          <img src="/src/assets/Group 5.svg" alt="" />
+          <img src="/assets/Group 5.svg" alt="" />
             New: AI-Powered Tools Available
           </div>
 
