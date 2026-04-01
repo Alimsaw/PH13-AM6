@@ -7,7 +7,7 @@ const Footer = () => {
 
           <div>
             <div className="flex items-center gap-3 mb-6">
-              <img src="/src/assets/DigiTools.svg" alt="AI Hub Logo" className="h-10 w-auto" />
+              <img src="/assets/DigiTools.svg" alt="AI Hub Logo" className="h-10 w-auto" />
             </div>
 
             <p className="text-zinc-400 text-lg max-w-md">

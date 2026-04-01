@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { toast } from "react-toastify";
-import checkIcon from "../assets/Check.svg";
+import checkIcon from "/assets/Check.svg";
 
 const ModelCard = ({ model, carts, setCarts }) => {
   const [isCart, setIsCart] = useState(false);
@@ -18,10 +18,16 @@ const ModelCard = ({ model, carts, setCarts }) => {
     toast.success("Added to cart!");
   };
 
+  const categoryColors = {
+  mostwanted: "bg-red-500",
+  favourite: "bg-pink-500",
+  popular: "bg-blue-500",
+};
+
   return (
     <div className="shadow-lg rounded-lg border-2 border-[#f2f2f2] p-4 space-y-4">
       <div className="flex justify-end">
-        <div className="bg-red-400 max-w-fit p-2 rounded-3xl">
+        <div className={` ${categoryColors[model.status]} max-w-fit p-2 rounded-3xl`}>
           {model.status}
         </div>
       </div>

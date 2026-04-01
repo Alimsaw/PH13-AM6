@@ -1,7 +1,7 @@
 import './App.css'
 import { useState } from "react";
-import Banner from "./component/Banner";
 import NavBar from "./component/NavBar";
+import Banner from "./component/Banner";
 import User from "./component/User";
 import GetStarted from "./component/GetStarted";
 import Package from "./component/Package";

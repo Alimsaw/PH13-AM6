@@ -21,7 +21,7 @@ const Package = () => {
                 <li className="flex items-center text-gray-600"><span className="mr-3">✔</span> 1 project per month</li>
               </ul>
             </div>
-            <button className="bg-[#8E44AD] text-white px-6 py-3 rounded-full hover:bg-[#9b59b6]">Get Started Free</button>
+            <button className="bg-[#422ad5] text-white px-6 py-3 rounded-full">Get Started Free</button>
           </div>
 
           <div className="bg-gradient-to-r from-purple-600 to-indigo-600 rounded-lg shadow-lg p-6 text-center relative flex flex-col justify-between min-h-[450px]">
@@ -41,7 +41,7 @@ const Package = () => {
                 <li className="flex items-center"><span className="mr-3">✔</span> Advanced analytics</li>
               </ul>
             </div>
-            <button className="bg-white text-[#8E44AD] px-6 py-3 rounded-full hover:bg-[#f5e6f0]">Start Pro Trial</button>
+            <button className="bg-white text-[#422ad5] px-6 py-3 rounded-full">Start Pro Trial</button>
           </div>
 
           <div className="bg-white rounded-lg shadow-lg p-6 text-center flex flex-col justify-between min-h-[450px]">
@@ -60,7 +60,7 @@ const Package = () => {
                 <li className="flex items-center text-gray-600"><span className="mr-3">✔</span> Custom branding</li>
               </ul>
             </div>
-            <button className="bg-[#8E44AD] text-white px-6 py-3 rounded-full hover:bg-[#9b59b6]">Contact Sales</button>
+            <button className="bg-[#422ad5] text-white px-6 py-3 rounded-full">Contact Sales</button>
           </div>
 
         </div>
