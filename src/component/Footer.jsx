@@ -47,7 +47,7 @@ const Footer = () => {
           
           <div>
             <h3 className="text-white font-semibold mb-6 text-lg">Social Links</h3>
-            <img src="/src/assets/Social Links.svg" alt="" />
+            <img src="/assets/Social Links.svg" alt="" />
           </div>
 
         </div>

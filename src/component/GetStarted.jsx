@@ -12,7 +12,7 @@ const GetStarted = () => {
               <span className="text-[16px] font-semibold">01</span>
             </div>
             <div>
-              <img className="bg-[#efeafe] text-white rounded-full p-2 w-16 h-16 flex items-center justify-center mx-auto mb-4" src="/src/assets/user.png" alt="" />
+              <img className="bg-[#efeafe] text-white rounded-full p-2 w-16 h-16 flex items-center justify-center mx-auto mb-4" src="/assets/user.png" alt="" />
             </div>
             <div className="mb-4">
               <span className="text-xl font-semibold text-[#8E44AD]">Create Account</span>
@@ -25,7 +25,7 @@ const GetStarted = () => {
               <span className="text-[16px] font-semibold">02</span>
             </div>
             <div>
-              <img className="bg-[#efeafe] text-white rounded-full p-2 w-16 h-16 flex items-center justify-center mx-auto mb-4" src="/src/assets/package.png" alt="" />
+              <img className="bg-[#efeafe] text-white rounded-full p-2 w-16 h-16 flex items-center justify-center mx-auto mb-4" src="/assets/package.png" alt="" />
             </div>
             <div className="mb-4">
               <span className="text-xl font-semibold text-[#8E44AD]">Choose Products</span>
@@ -38,7 +38,7 @@ const GetStarted = () => {
               <span className="text-[16px] font-semibold">03</span>
             </div>
             <div>
-              <img className="bg-[#efeafe] text-white rounded-full p-2 w-16 h-16 flex items-center justify-center mx-auto mb-4" src="/src/assets/rocket.png" alt="" />
+              <img className="bg-[#efeafe] text-white rounded-full p-2 w-16 h-16 flex items-center justify-center mx-auto mb-4" src="/assets/rocket.png" alt="" />
             </div>
             <div className="mb-4">
               <span className="text-xl font-semibold text-[#8E44AD]">Start Creating</span>

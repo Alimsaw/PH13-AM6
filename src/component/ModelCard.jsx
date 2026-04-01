@@ -19,9 +19,9 @@ const ModelCard = ({ model, carts, setCarts }) => {
   };
 
   const categoryColors = {
-  mostwanted: "bg-red-500",
-  favourite: "bg-pink-500",
-  popular: "bg-blue-500",
+  BestSeller: "bg-[#fef3c6]",
+  Popular: "bg-[#e1e7ff]",
+  New: "bg-[#dbfce7]",
 };
 
   return (
