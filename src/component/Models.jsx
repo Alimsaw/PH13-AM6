@@ -12,8 +12,8 @@ const Models = ({ getModels, carts, setCarts }) => {
   return (
     <div>
       <div>
-        <h2>Premium Digital Tools</h2>
-        <p>
+        <h2 className="text-[48px] font-extrabold text-[#101727] text-center">Premium Digital Tools</h2>
+        <p className="text-[16px] text-[#627382] text-center mb-6">
           Choose from our curated collection of premium digital products designed <br />
           to boost your productivity and creativity.
         </p>

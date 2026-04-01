@@ -25,7 +25,7 @@ function App() {
       <Banner />
       <User />
 
-      <div className="tabs tabs-box justify-center bg-transparent">
+      <div className="tabs tabs-box justify-center bg-transparent mt-6">
         <input
           type="radio"
           name="my_tabs_1"
